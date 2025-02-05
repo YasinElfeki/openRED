@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMC Remedy Login</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('https://147.249.90.35/arsys/resources/images/login-cover-3.jpg') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .login-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+        .login-container img {
+            width: 50px;
+        }
+        .login-container h2 {
+            color: #ff6600;
+            margin: 10px 0;
+        }
+        .input-group {
+            margin: 10px 0;
+        }
+        .input-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background: #009688;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+            margin-top: 10px;
+        }
+        .btn-clear {
+            background: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <img src="bmc-logo.png" alt="BMC Logo">
+        <h2>Remedy</h2>
+        <div class="input-group">
+            <input type="text" placeholder="User Name">
+        </div>
+        <div class="input-group">
+            <input type="password" placeholder="Password">
+        </div>
+        <button class="btn">Log In</button>
+        <button class="btn btn-clear">Clear</button>
+    </div>
+</body>
+</html>
